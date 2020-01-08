@@ -1,0 +1,7 @@
+Ignore list
+
+####  VSCode
+.vscode/
+
+#### Plugins
+.jshintrc

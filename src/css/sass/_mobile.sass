@@ -1,0 +1,73 @@
+.mobile
+    min-height: 864px
+    padding: 48px 0 79px 0
+    background: url('../img/bg_mobile.jpg') center (center / cover) no-repeat
+
+    .row
+        margin-top: 32px
+
+    &-item
+        position: relative
+        width: 320px
+        height: 280px
+        margin: 0 auto 19px auto
+        padding-top: 92px
+
+        &-1
+            background: url('../img/mobile/order.png') center (center / cover) no-repeat
+        &-2
+            background: url('../img/mobile/innings.png') center (center / cover) no-repeat
+        &-3
+            background: url('../img/mobile/cost.png') center (center / cover) no-repeat
+        &-4
+            background: url('../img/mobile/payment.png') center (center / cover) no-repeat
+        &-5
+            background: url('../img/mobile/communications.png') center (center / cover) no-repeat
+        &-6
+            background: url('../img/mobile/value.png') center (center / cover) no-repeat
+
+    &-subtitle
+        color: #ffffff
+        font-size: 24px
+        font-weight: 400
+        text-transform: uppercase
+        text-align: center
+
+    &-plus
+        display: flex
+        justify-content: center
+        align-items: center
+        position: absolute
+        bottom: 35px
+        left: 50%
+        transform: translateX(-50%)
+        width: 26px
+        height: 26px
+        background-color: #000000
+        border-radius: 100%
+        margin: 0 auto
+        text-align: center
+        cursor: pointer
+
+        &::before
+            content: ''
+            width: 14px
+            height: 2px
+            background-color: $color-light-blue
+            transition: 0.3s all
+        
+        &::after
+            content: ''
+            position: absolute
+            left: 50%
+            transform: translateX(-50%)
+            width: 2px
+            height: 14px
+            background-color: $color-light-blue
+            transition: 0.3s all
+
+        &:hover
+            &::before, &::after
+                background-color: $color-light-red
+                
+                

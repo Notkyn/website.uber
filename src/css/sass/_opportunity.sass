@@ -1,0 +1,46 @@
+.opportunity
+    padding: 68px 0 52px 0
+
+    &-block
+        margin: 32px 0
+    
+    &-title
+        color: #1ca8c3
+        font-size: 22px
+        font-weight: 400
+
+    &-list
+        color: #222222
+        font-size: 17px
+        font-weight: 300
+        margin-top: 20px
+        list-style-type: none
+        padding-left: 50px
+
+        li
+            position: relative
+            margin-top: 10px
+
+            &::before
+                content: ''
+                position: absolute
+                left: -32px
+                top: 3px
+                height: 20px
+                width: 21px
+                background: url('../icons/positive.png') center (center / cover) no-repeat
+    
+    &-descr
+        color: #1ca8c3
+        font-family: "Roboto Light"
+        font-weight: 300
+        font-size: 17px
+
+    .warning
+        .opportunity-title
+            color: #ff5656
+
+        .opportunity-list
+            li
+                &::before
+                    background: url('../icons/negative.png') center (center / cover) no-repeat
