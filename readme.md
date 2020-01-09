@@ -1,6 +1,6 @@
 # **Uber**
 
-## **_Responsive landing page._**
+**_Responsive landing page._**
 
 - HTML5
 - CSS3
