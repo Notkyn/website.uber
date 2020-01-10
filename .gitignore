@@ -5,3 +5,4 @@ Ignore list
 
 #### Plugins
 .jshintrc
+node_modules
